@@ -17,13 +17,28 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.menu {
+.menu > span {
   display: block;
   width: 26px;
   height: 2px;
   background-color: black;
   margin-bottom: 3px;
+  transition: all 300ms ease-in-out;
+  transform-origin: 3px 1px;
 }
+
+.menu.open > span:first-child {
+  transform: rotate(45deg);
+}
+
+.menu.open > span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu.open > span:last-child {
+  transform: rotate(-45deg);
+}
+
 .hamburger:last-child {
   margin-bottom: 3px;
 }
@@ -52,4 +67,52 @@ a {
   .hide-for-desktop {
     display: none;
   }
+}
+
+.overlay {
+  opacity: 0;
+  position: fixed;
+  top: 90px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: lightblue;
+  background-image: linear-gradient(lightblue, transparent);
+}
+
+.overlay.open {
+  opacity: 1; /* Set opacity to 1 when the menu is open */
+}
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fade-in 300ms ease-in-out forwards;
+}
+@keyframes fade-in {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.fade-out {
+  animation: fade-out 300ms ease-in-out forwards;
 }
