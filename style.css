@@ -93,13 +93,14 @@ a {
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
 .fade-in {
   animation: fade-in 300ms ease-in-out forwards;
 }
-@keyframes fade-in {
+@keyframes fade-out {
   from {
     visibility: visible;
     opacity: 1;
@@ -115,4 +116,32 @@ a {
 }
 .fade-out {
   animation: fade-out 300ms ease-in-out forwards;
+}
+
+.menu_links {
+  background: white;
+  padding: 1.625rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1.5 rem;
+  border-radius: 5px;
+}
+.menu_links a {
+  display: block;
+  padding: 0.625 rem;
+  color: darkblue;
+  margin: 10px;
+  text-align: center;
+}
+.container {
+  padding-left: 1.5 rem;
+  padding-right: 1.5 rem;
+}
+.has-fade {
+  visibility: hidden;
 }
