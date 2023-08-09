@@ -145,3 +145,129 @@ a {
 .has-fade {
   visibility: hidden;
 }
+.Designing {
+  height: 69px;
+  flex-shrink: 0;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 42rem;
+}
+.About-Us {
+  height: 115px;
+  flex-shrink: 0;
+  color: #fff;
+  text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+}
+.About-Us-Pic-1 {
+  width: 662px;
+  height: 451px;
+  flex-shrink: 0;
+  border-radius: 149px;
+  background: #d9d9d9;
+}
+.About-Us-Text-1 {
+  width: 606px;
+  height: 350px;
+  flex-shrink: 0;
+  color: #000000;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.About-Us-Pic-2 {
+  width: 662px;
+  height: 451px;
+  flex-shrink: 0;
+  border-radius: 149px;
+  background: #d9d9d9;
+}
+.About-Us-Text-2 {
+  width: 606px;
+  height: 350px;
+  flex-shrink: 0;
+  color: #000000;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.row-structure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.get-started {
+  width: 911px;
+  height: 115px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.video {
+  width: 851px;
+  height: 537px;
+  flex-shrink: 0;
+  border-radius: 149px;
+  background: #d9d9d9;
+  text-align: center;
+}
+.video-description {
+  width: 1021px;
+  height: 138px;
+  flex-shrink: 0;
+  color: #000000;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tutorial {
+  height: 115px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inder;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tutorial-video {
+  width: 851px;
+  height: 537px;
+  border-radius: 149px;
+  background: #d9d9d9;
+}
+.tutorial-video-description {
+  width: 1021px;
+  height: 138px;
+  color: #000000;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
