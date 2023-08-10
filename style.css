@@ -161,12 +161,13 @@ a {
 .About-Us {
   height: 115px;
   flex-shrink: 0;
-  color: #fff;
+  color: #000000;
   text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
   font-family: Inter;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
+  margin-left: 15rem;
 }
 .About-Us-Pic-1 {
   width: 662px;
@@ -212,10 +213,9 @@ a {
   margin-bottom: 5rem;
 }
 .get-started {
-  width: 911px;
   height: 115px;
   flex-shrink: 0;
-  color: #fff;
+  color: #000000;
   text-align: center;
   text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
   font-family: Inter;
@@ -233,20 +233,21 @@ a {
   text-align: center;
 }
 .video-description {
-  width: 1021px;
   height: 138px;
   flex-shrink: 0;
   color: #000000;
-  text-align: center;
   font-family: Comfortaa;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100rem;
 }
 .tutorial {
   height: 115px;
-  color: #fff;
+  color: #000000;
   text-align: center;
   text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
   font-family: Inder;
@@ -262,7 +263,6 @@ a {
   background: #d9d9d9;
 }
 .tutorial-video-description {
-  width: 1021px;
   height: 138px;
   color: #000000;
   font-family: Comfortaa;
@@ -270,4 +270,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100rem;
 }
