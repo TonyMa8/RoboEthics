@@ -11,6 +11,14 @@ body {
 .logo {
   width: 150px;
 }
+.robot {
+  height: 25%;
+  width: 25%;
+}
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+}
 .flex {
   padding: 10px;
   display: flex;
