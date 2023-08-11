@@ -23,3 +23,17 @@ btnHamburger.addEventListener("click", function () {
     overlay.classList.add("open");
   }
 });
+
+///Page navigation
+document.querySelector(".links").addEventListener("click", function (e) {
+  e.preventDefault();
+  console.log("click");
+
+  //matching
+  if (e.target.classList.contains("nav__link")) {
+    const id = e.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({
+      behavior: "smooth",
+    });
+  }
+});
