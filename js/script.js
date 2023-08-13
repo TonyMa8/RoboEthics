@@ -37,3 +37,49 @@ document.querySelector(".links").addEventListener("click", function (e) {
     });
   }
 });
+
+//Sticky Navigation: Intersection Observer API
+
+//const header = document.querySelector(".header");
+//const navHeight = header.getBoundingClientRect().height;
+
+//const stickyNav = function (entries) {
+//const [entry] = entries;
+
+//if (!entry.isIntersecting) {
+//header.classList.add("sticky");
+//} else {
+// header.classList.remove("sticky");
+// }
+//};
+
+//const headerObserver = new IntersectionObserver(stickyNav, {
+//root: null,
+//threshold: 0,
+//rootMargin: `${navHeight}px`,
+//});
+
+//headerObserver.observe(header);
+
+const header = document.querySelector(".header");
+const container = document.querySelector(".container"); // Define the container element
+const navHeight = container.getBoundingClientRect().height;
+
+const stickyNav = function (entries) {
+  const [entry] = entries;
+  if (!entry.isIntersecting) {
+    container.classList.add("sticky");
+  } else {
+    container.classList.remove("sticky");
+  }
+};
+
+const headerObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 0,
+  rootMargin: `${navHeight}px`,
+});
+headerObserver.observe(header);
+
+const h1 = document.querySelector("h1");
+const body = document.querySelectorAll("body");
