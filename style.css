@@ -21,6 +21,7 @@ body {
   height: 555px;
   flex-shrink: 0;
   border-radius: 213px;
+  opacity: 0.75;
 }
 .intro {
   display: flex;
@@ -250,16 +251,14 @@ a {
   margin-bottom: 5rem;
 }
 .get-started {
-  height: 115px;
-  flex-shrink: 0;
-  color: #000000;
+  color: #00a99d;
   text-align: center;
-  text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
-  font-family: Inter;
-  font-size: 80px;
+  font-family: Orbitron;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
+  text-shadow: 7px 5px 4px rgba(0, 0, 0, 0.25);
 }
 .video {
   width: 851px;
@@ -321,4 +320,27 @@ a {
 
 .header {
   background-color: white;
+}
+
+.box {
+  border-radius: 41px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: #ffd6ba;
+  width: 614px;
+  height: 303px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.resource-links {
+  display: flex;
+  justify-content: center;
+}
+.Puzzle-robot {
+  width: 430.608px;
+  height: 439.141px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-left: 75%;
+  background: transparent;
+  opacity: 0.7;
 }
