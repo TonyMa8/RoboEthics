@@ -17,11 +17,13 @@ body {
   width: 150px;
 }
 .robot {
-  width: 500px;
-  height: 555px;
+  /* width: 500px; */
+  width: 26.042vw;
+  /* height: 555px; */
+  height: 28.907vw;
   flex-shrink: 0;
   border-radius: 213px;
-  opacity: 0.75;
+  opacity: 0.65;
 }
 .intro {
   display: flex;
@@ -173,7 +175,8 @@ a {
   color: #b0d8d5;
   text-shadow: -10px 10px 0px rgba(0, 0, 0, 0.25);
   font-family: Orbitron;
-  font-size: 120px;
+  /* font-size:7.5rem */
+  font-size: 6.25vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -181,7 +184,8 @@ a {
 .Roboethics {
   color: #00a99d;
   font-family: Orbitron;
-  font-size: 170px;
+  /* font-size: 10.625rem; */
+  font-size: 8.854vw;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -190,79 +194,99 @@ a {
   color: #00a99d;
   text-shadow: 20px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: Orbitron;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 2.604vw;
   font-style: normal;
   font-weight: 600;
-  padding-left: 10rem;
+  /* padding-left: 10rem; */
+  padding-left: 8.333vw;
 }
 .Who-are-we {
   color: #00a99d;
   text-shadow: 20px 0px 10px rgba(0, 0, 0, 0.25);
   font-family: Orbitron;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 2.604vw;
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  padding-left: 30rem;
+  /* padding-left: 30rem; */
+  padding-left: 25vw;
 }
 .About-Us-Pic-1 {
-  width: 662px;
-  height: 451px;
+  /* width: 662px; */
+  width: 34.479vw;
+  /* height: 451px; */
+  height: 23.49vw;
   flex-shrink: 0;
   border-radius: 149px;
   background: #d9d9d9;
 }
 .About-Us-Text-1 {
-  width: 606px;
-  height: 350px;
+  /* width: 606px; */
+  width: 31.563vw;
+  /* height: 350px; */
+  height: 18.229vw;
   flex-shrink: 0;
   color: #000000;
   font-family: "Oxygen", sans-serif;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.563vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
+  margin-right: 5vw;
 }
 .About-Us-Pic-2 {
-  width: 662px;
-  height: 451px;
+  /* width: 662px;
+  height: 451px; */
+  width: 34.479vw;
+  height: 23.49vw;
   flex-shrink: 0;
   border-radius: 149px;
   background: #d9d9d9;
 }
 .About-Us-Text-2 {
-  width: 606px;
-  height: 350px;
+  /* width: 606px; */
+  width: 31.563vw;
+  /* height: 350px; */
+  height: 18.229vw;
   flex-shrink: 0;
   color: #000000;
   font-family: "Oxygen", sans-serif;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.563vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
+  margin-left: 5vw;
 }
 .row-structure {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
+  margin-bottom: 4.167vw;
 }
 .get-started {
   color: #00a99d;
   text-align: center;
   font-family: Orbitron;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 2.604vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-shadow: 7px 5px 4px rgba(0, 0, 0, 0.25);
 }
 .video {
-  width: 851px;
-  height: 537px;
+  /* width: 851px;
+  height: 537px; */
+  width: 44.323vw;
+  height: 27.969vw;
   flex-shrink: 0;
   border-radius: 50px;
   background: #d9d9d9;
@@ -274,13 +298,15 @@ a {
   flex-shrink: 0;
   color: #000000;
   font-family: Comfortaa;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.563vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
-  width: 100rem;
+  /* width: 100rem; */
+  width: 83.333vw;
 }
 .tutorial {
   height: 115px;
@@ -294,8 +320,10 @@ a {
   line-height: normal;
 }
 .tutorial-video {
-  width: 851px;
-  height: 537px;
+  /* width: 851px;
+  height: 537px; */
+  width: 44.323vw;
+  height: 27.969vw;
   border-radius: 149px;
   background: #d9d9d9;
   display: block;
@@ -305,7 +333,8 @@ a {
   height: 138px;
   color: #000000;
   font-family: Comfortaa;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.563vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -329,8 +358,10 @@ a {
   border-radius: 41px;
   border: 1px solid rgba(0, 0, 0, 0);
   background: #ffd6ba;
-  width: 614px;
-  height: 303px;
+  /* width: 614px;
+  height: 303px; */
+  width: 31.979vw;
+  height: 15.782vw;
   flex-shrink: 0;
   text-align: center;
 }
@@ -339,8 +370,10 @@ a {
   justify-content: center;
 }
 .Puzzle-robot {
-  width: 430.608px;
-  height: 439.141px;
+  /* width: 430.608px;
+  height: 439.141px; */
+  width: 22.428vw;
+  height: 22.872vw;
   flex-shrink: 0;
   position: absolute;
   margin-left: 75%;
