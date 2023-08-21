@@ -17,7 +17,7 @@ body {
   width: 150px;
 }
 .robot {
-  width: 328px;
+  width: 500px;
   height: 555px;
   flex-shrink: 0;
   border-radius: 213px;
@@ -264,9 +264,10 @@ a {
   width: 851px;
   height: 537px;
   flex-shrink: 0;
-  border-radius: 149px;
+  border-radius: 50px;
   background: #d9d9d9;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .video-description {
   height: 138px;
@@ -297,6 +298,8 @@ a {
   height: 537px;
   border-radius: 149px;
   background: #d9d9d9;
+  display: block;
+  margin: 0 auto;
 }
 .tutorial-video-description {
   height: 138px;
