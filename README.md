@@ -27,6 +27,6 @@ Please contact contributors to this repository about the problem
 
 ## Authors
 
-*3minCurry - Kyujin Chu
-*Tony8 - Antony Ma
+* 3minCurry - Kyujin Chu
+* Tony8 - Antony Ma
 
