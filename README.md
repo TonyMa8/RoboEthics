@@ -1,13 +1,6 @@
-# RoboEthics
-RoboEthics website
+# Project RoboEthics
 
-# Project Title
-
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
+Roboethics website made primarily to captivate interest in teens
 
 ## Getting Started
 
@@ -16,50 +9,24 @@ An in-depth paragraph about your project and overview of use.
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 
-### Installing
+### How to view it
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+click here: (put link here)
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* git clone this repository in your local device
+* Display the index page using an extension in vscode (live server)
 ```
 code blocks for commands
 ```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Please contact contributors to this repository about the problem
 
 ## Authors
 
-Contributors names and contact info
+3minCurry - Kyujin Chu
+Tony8 - Antony Ma
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
