@@ -8,7 +8,7 @@ No need to download any libraries
 
 ### How to view it
 
-click here: (put link here)
+click here: [(put link here)](https://tonyma8.github.io/RoboEthics/)
 
 ### Executing program
 
