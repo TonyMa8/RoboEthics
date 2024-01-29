@@ -1,13 +1,10 @@
 # Project RoboEthics
 
-Roboethics website made primarily to captivate interest in teens
-
-## Getting Started
+Roboethics website made primarily to captivate interest in teens. Made with HTML, CSS, Javascript
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+No need to download any libraries
 
 ### How to view it
 
@@ -18,7 +15,8 @@ click here: (put link here)
 * git clone this repository in your local device
 * Display the index page using an extension in vscode (live server)
 ```
-code blocks for commands
+cd folder/of/your/choice
+git clone https://github.com/TonyMa8/RoboEthics.git
 ```
 
 ## Help
